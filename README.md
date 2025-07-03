@@ -61,7 +61,7 @@ Despite countless online palettes, people struggle to choose colors that align w
 
 ## 🖼️ Example Output
 
- **Input Interface:** Prompt, source selection, palette count, and image upload.
+- **Input Interface:** Prompt, source selection, palette count, and image upload.
   ![Input Interface](assets/interface.png)
 
 - **Smart Validation:** Warnings and messages for missing or invalid input.
