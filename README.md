@@ -1,7 +1,11 @@
+<h1 align="center">🎨 Prompt-2-Palette</h1>
+<p align="center">
+ Prompt-2-Palette is an AI-powered tool that bridges the gap between your creative vision and the perfect color palette. Whether you’re a designer, developer, or branding professional, this app helps you translate simple text prompts or inspiring images into meaningful, emotionally resonant color palettes.
+</p>
 
-# 🎨 Prompt-2-Palette
-
-Prompt-2-Palette is an AI-powered tool that bridges the gap between your creative vision and the perfect color palette. Whether you’re a designer, developer, or branding professional, this app helps you translate simple text prompts or inspiring images into meaningful, emotionally resonant color palettes.
+<p align="center">
+  <img src="assets/dashboard.png" width="80%" alt="Delhi Veins Banner"/>
+</p>
 
 ---
 
@@ -24,12 +28,15 @@ Despite countless online palettes, people struggle to choose colors that align w
 
 ## ⚙️ Tech Stack & Tools
 
-- **Language:** Python 3.8+
-- **Framework:** [Streamlit](https://streamlit.io/)
-- **Machine Learning:** K-Means Clustering (`sklearn`)
-- **Image Processing:** PIL (Pillow), NumPy
-- **APIs:** Unsplash, Pexels, Pixabay
-- **Libraries:** `sklearn`, `Pillow`, `NumPy`, `requests`, `matplotlib`, `streamlit`
+| Category             | Details                                      |
+|----------------------|----------------------------------------------|
+| **Language**         | Python 3.8+                                  |
+| **Framework**        | [Streamlit](https://streamlit.io/)           |
+| **Machine Learning** | K-Means Clustering (`sklearn`)               |
+| **Image Processing** | PIL (Pillow), NumPy                          |
+| **APIs**             | Unsplash, Pexels, Pixabay                     |
+| **Libraries**        | `sklearn`, `Pillow`, `NumPy`, `requests`, `matplotlib`, `streamlit` |
+
 
 ---
 
@@ -52,23 +59,22 @@ Despite countless online palettes, people struggle to choose colors that align w
 
 ---
 
-## 📊 Algorithm Details
-
-- **Algorithm:** K-Means Clustering
-- **Steps:**
-   1. Randomly initialize K cluster centroids.
-   2. Assign each pixel to the nearest centroid.
-   3. Recalculate centroids.
-   4. Repeat until convergence.
-- The final centroids represent dominant colors in the palette.
-
----
-
 ## 🖼️ Example Output
 
-- Swatches displayed alongside reference images.
-- HEX codes for easy copy & use.
-- Multiple palettes for variety and design flexibility.
+ **Input Interface:** Prompt, source selection, palette count, and image upload.
+  ![Input Interface](assets/interface.png)
+
+- **Smart Validation:** Warnings and messages for missing or invalid input.
+  ![Input Validation](assets/validation.png)
+
+- **API-Fetched Palette:** Generated palettes from images fetched via APIs.
+  ![API-Fetched Palette](assets/api-fetched-palette1.png)
+  ![API-Fetched Palette](assets/api-fetched-palette2.png)
+
+- **Uploaded Image Palette:** Palettes extracted from a user-uploaded image.
+  ![Uploaded Image Palette](assets/uploaded-image-palette.jpg)
+
+
 
 ---
 
@@ -82,23 +88,10 @@ Despite countless online palettes, people struggle to choose colors that align w
 
 ---
 
-## 📚 References
 
-- [Scikit-learn KMeans Clustering](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.KMeans.html)
-- [Unsplash API Docs](https://unsplash.com/developers)
-- [Pexels API Docs](https://www.pexels.com/api/)
-- [Pixabay API Docs](https://pixabay.com/api/docs/)
-- [Streamlit Docs](https://docs.streamlit.io/)
+## 🔗 Related LinkedIn Post
 
----
-
-## ✨ Conclusion
-
-Prompt-2-Palette demonstrates how unsupervised learning and intuitive design tools can solve real-world creative challenges. It empowers users to make confident, mood-driven design choices — all in one click.
-
----
-
-## 🤝 License & Declaration
-
-This project is submitted exclusively for the AICTE Edunet Foundation Internship evaluation.  
-**Developed with ❤️ by [Your Name]**
+> ✨ A small ML idea, a big learning curve — and an even bigger story worth sharing
+> Read the full story behind building **Prompt-2_Palette** on LinkedIn:  
+**[🔗 Click to read](https://www.linkedin.com/posts/diyumana-bhardwaj_firstmlproject-prompttopalette-cutecodemoments-activity-7346580940669820928-zblV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAESuVMMBVZc_3wpWPqClK3GIK4xugcX6uHU)**
+**Developed with ❤️ by Diyumana Bhardwaj**
