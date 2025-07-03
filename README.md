@@ -72,7 +72,7 @@ Despite countless online palettes, people struggle to choose colors that align w
   ![API-Fetched Palette](assets/api-fetched-palette2.png)
 
 - **Uploaded Image Palette:** Palettes extracted from a user-uploaded image.
-  ![Uploaded Image Palette](assets/uploaded-image-palette.jpg)
+  ![Uploaded Image Palette](assets/uploaded-image-palette.png)
 
 
 
