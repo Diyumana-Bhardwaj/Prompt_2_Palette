@@ -7,9 +7,9 @@ import matplotlib.pyplot as plt
 from io import BytesIO
 from PIL import Image
 
-UNSPLASH_ACCESS_KEY = "tLGcWA8eEFb1FJDlEpRqpykhHusP9Sn3DzGguSVfvPE"
-PEXELS_API_KEY = "yNQa5GYUbseCpE26uirEDnG6mQnwMKQP8FflbO4GxW3LkKkDIkj7UO2I"
-PIXABAY_API_KEY = "50682204-5cf941c254583dd54e94fa71f"
+UNSPLASH_ACCESS_KEY = "t##############################################"
+PEXELS_API_KEY = "y##############################################"
+PIXABAY_API_KEY = "5###############################################"
 
 # Function to load CSS from the 'assets' folder
 def load_css(file_path):
